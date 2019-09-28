@@ -13,196 +13,238 @@
         android:layout_height="wrap_content"
         android:hint="0"
         android:gravity="right"
-        android:textSize="75dp"/>
+        android:textSize="50dp"
+        android:layout_margin="5dp"
+        android:padding="5dp"/>
+
+
+    <Button
+        android:id="@+id/button_clear"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="5dp"
+        android:background="@drawable/rounded_button"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="c"
+        android:textSize="20dp" />
 
     <GridLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
         android:columnCount="4"
+        android:orientation="vertical"
+        android:padding="5dp"
         android:rowCount="4">
 
         <Button
             android:id="@+id/button_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
             android:layout_row="0"
+            android:layout_rowWeight="1"
             android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button"
             android:text="7"
-            android:textSize="75dp"/>
+            android:textSize="20dp" />
+
         <Button
             android:id="@+id/button_8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
             android:layout_row="0"
+            android:layout_rowWeight="1"
             android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button"
             android:text="8"
-            android:textSize="75dp"/>
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/button_9"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:layout_row="0"
-            android:layout_column="2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button"
             android:text="9"
-            android:textSize="75dp"/>
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/button_divide"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:layout_row="0"
-            android:layout_column="3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button"
             android:text="/"
-            android:textSize="75dp"/>
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/button_4"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:layout_row="1"
-            android:layout_column="0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button"
             android:text="4"
-            android:textSize="75dp"/>
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/button_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
             android:layout_row="1"
+            android:layout_rowWeight="1"
             android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button"
             android:text="5"
-            android:textSize="75dp"/>
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/button_6"
-            android:layout_row="1"
-            android:layout_column="2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
+            android:layout_row="1"
             android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button"
             android:text="6"
-            android:textSize="75dp"/>
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/button_multiply"
-            android:layout_row="1"
-            android:layout_column="3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
+            android:layout_row="1"
             android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button"
             android:text="*"
-            android:textSize="75dp"/>
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/button_1"
-            android:layout_row="2"
-            android:layout_column="0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
+            android:layout_row="2"
             android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button"
             android:text="1"
-            android:textSize="75dp" />
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/button_2"
-            android:layout_row="2"
-            android:layout_column="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
+            android:layout_row="2"
             android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button"
             android:text="2"
-            android:textSize="75dp" />
+            android:textSize="20dp" />
+
         <Button
             android:id="@+id/button_3"
-            android:layout_row="2"
-            android:layout_column="2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
+            android:layout_row="2"
             android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button"
             android:text="3"
-            android:textSize="75dp"/>
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/button_subtraction"
-            android:layout_row="2"
-            android:layout_column="3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
+            android:layout_row="2"
             android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button"
             android:text="-"
-            android:textSize="75dp"/>
+            android:textSize="20dp" />
+
         <Button
             android:id="@+id/button_point"
-            android:layout_row="3"
-            android:layout_column="0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
+            android:layout_row="3"
             android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button"
             android:text="."
-            android:textSize="75dp"/>
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/button_0"
-            android:layout_row="3"
-            android:layout_column="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
+            android:layout_row="3"
             android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button"
             android:text="0"
-            android:textSize="75dp"/>
+            android:textSize="20dp" />
+
         <Button
             android:id="@+id/button_equals"
-            android:layout_row="3"
-            android:layout_column="2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
+            android:layout_row="3"
             android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button"
             android:text="="
-            android:textSize="75dp"/>
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/button_addition"
-            android:layout_row="3"
-            android:layout_column="3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
+            android:layout_row="3"
             android:layout_rowWeight="1"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button"
             android:text="+"
-            android:textSize="75dp"/>
+            android:textSize="20dp" />
     </GridLayout>
-
-    <Button
-        android:id="@+id/button_clear"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="clear"
-        android:textSize="45dp"
-        android:gravity="center"/>
-
-
-
-
 </LinearLayout>
