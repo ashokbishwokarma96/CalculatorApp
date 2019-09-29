@@ -11,16 +11,16 @@
         android:id="@+id/textView_screen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="0"
-        android:gravity="right"
-        android:textSize="50dp"
+        android:layout_gravity="right"
         android:layout_margin="5dp"
-        android:padding="5dp"/>
-
+        android:gravity="right"
+        android:hint="0"
+        android:padding="5dp"
+        android:textSize="25dp" />
 
     <Button
         android:id="@+id/button_clear"
-        android:layout_width="90dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
         android:layout_margin="5dp"
@@ -28,15 +28,16 @@
         android:gravity="center"
         android:padding="5dp"
         android:text="c"
-        android:textSize="20dp" />
+        android:textSize="30dp" />
+
 
     <GridLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#000A0A0A"
         android:columnCount="4"
         android:orientation="vertical"
-        android:padding="5dp"
         android:rowCount="4">
 
         <Button
@@ -49,8 +50,7 @@
             android:layout_columnWeight="1"
             android:layout_margin="5dp"
             android:background="@drawable/rounded_button"
-            android:text="7"
-            android:textSize="20dp" />
+            android:text="7"/>
 
         <Button
             android:id="@+id/button_8"
@@ -62,8 +62,7 @@
             android:layout_columnWeight="1"
             android:layout_margin="5dp"
             android:background="@drawable/rounded_button"
-            android:text="8"
-            android:textSize="20dp" />
+            android:text="8" />
 
         <Button
             android:id="@+id/button_9"
@@ -75,8 +74,7 @@
             android:layout_columnWeight="1"
             android:layout_margin="5dp"
             android:background="@drawable/rounded_button"
-            android:text="9"
-            android:textSize="20dp" />
+            android:text="9" />
 
         <Button
             android:id="@+id/button_divide"
@@ -88,8 +86,7 @@
             android:layout_columnWeight="1"
             android:layout_margin="5dp"
             android:background="@drawable/rounded_button"
-            android:text="/"
-            android:textSize="20dp" />
+            android:text="/" />
 
         <Button
             android:id="@+id/button_4"
@@ -101,8 +98,7 @@
             android:layout_columnWeight="1"
             android:layout_margin="5dp"
             android:background="@drawable/rounded_button"
-            android:text="4"
-            android:textSize="20dp" />
+            android:text="4" />
 
         <Button
             android:id="@+id/button_5"
@@ -114,8 +110,7 @@
             android:layout_columnWeight="1"
             android:layout_margin="5dp"
             android:background="@drawable/rounded_button"
-            android:text="5"
-            android:textSize="20dp" />
+            android:text="5" />
 
         <Button
             android:id="@+id/button_6"
@@ -127,8 +122,7 @@
             android:layout_columnWeight="1"
             android:layout_margin="5dp"
             android:background="@drawable/rounded_button"
-            android:text="6"
-            android:textSize="20dp" />
+            android:text="6" />
 
         <Button
             android:id="@+id/button_multiply"
@@ -140,8 +134,7 @@
             android:layout_columnWeight="1"
             android:layout_margin="5dp"
             android:background="@drawable/rounded_button"
-            android:text="*"
-            android:textSize="20dp" />
+            android:text="*" />
 
         <Button
             android:id="@+id/button_1"
@@ -153,8 +146,7 @@
             android:layout_columnWeight="1"
             android:layout_margin="5dp"
             android:background="@drawable/rounded_button"
-            android:text="1"
-            android:textSize="20dp" />
+            android:text="1" />
 
         <Button
             android:id="@+id/button_2"
@@ -166,8 +158,7 @@
             android:layout_columnWeight="1"
             android:layout_margin="5dp"
             android:background="@drawable/rounded_button"
-            android:text="2"
-            android:textSize="20dp" />
+            android:text="2" />
 
         <Button
             android:id="@+id/button_3"
@@ -179,8 +170,7 @@
             android:layout_columnWeight="1"
             android:layout_margin="5dp"
             android:background="@drawable/rounded_button"
-            android:text="3"
-            android:textSize="20dp" />
+            android:text="3" />
 
         <Button
             android:id="@+id/button_subtraction"
@@ -192,8 +182,7 @@
             android:layout_columnWeight="1"
             android:layout_margin="5dp"
             android:background="@drawable/rounded_button"
-            android:text="-"
-            android:textSize="20dp" />
+            android:text="-" />
 
         <Button
             android:id="@+id/button_point"
@@ -205,8 +194,7 @@
             android:layout_columnWeight="1"
             android:layout_margin="5dp"
             android:background="@drawable/rounded_button"
-            android:text="."
-            android:textSize="20dp" />
+            android:text="." />
 
         <Button
             android:id="@+id/button_0"
@@ -218,8 +206,7 @@
             android:layout_columnWeight="1"
             android:layout_margin="5dp"
             android:background="@drawable/rounded_button"
-            android:text="0"
-            android:textSize="20dp" />
+            android:text="0" />
 
         <Button
             android:id="@+id/button_equals"
@@ -231,8 +218,7 @@
             android:layout_columnWeight="1"
             android:layout_margin="5dp"
             android:background="@drawable/rounded_button"
-            android:text="="
-            android:textSize="20dp" />
+            android:text="=" />
 
         <Button
             android:id="@+id/button_addition"
@@ -244,7 +230,7 @@
             android:layout_columnWeight="1"
             android:layout_margin="5dp"
             android:background="@drawable/rounded_button"
-            android:text="+"
-            android:textSize="20dp" />
+            android:text="+" />
     </GridLayout>
+
 </LinearLayout>
