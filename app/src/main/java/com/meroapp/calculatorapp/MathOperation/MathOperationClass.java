@@ -8,16 +8,16 @@ public class MathOperationClass {
         this.secondNumber = secondNumber;
     }
 
-    private double addition(){
+    public double addition(){
         return firstNumber+secondNumber;
     }
-    private double substraction(){
+    public double substraction(){
         return firstNumber-secondNumber;
 
-    }private double multiplication(){
+    }public double multiplication(){
         return firstNumber*secondNumber;
     }
-    private double division(){
+    public double division(){
         return firstNumber/secondNumber;
     }
 
